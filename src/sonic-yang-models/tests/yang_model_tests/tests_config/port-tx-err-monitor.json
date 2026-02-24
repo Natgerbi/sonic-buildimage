@@ -1,0 +1,57 @@
+{
+    "PORT_TX_ERR_MONITOR_VALID": {
+        "sonic-port-tx-err-monitor:sonic-port-tx-err-monitor": {
+            "sonic-port-tx-err-monitor:PORT_TX_ERR_MONITOR": {
+                "CONFIG": {
+                    "threshold": "100",
+                    "window_sec": "10",
+                    "enabled": "enabled"
+                }
+            }
+        }
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_THRESHOLD_ZERO": {
+        "sonic-port-tx-err-monitor:sonic-port-tx-err-monitor": {
+            "sonic-port-tx-err-monitor:PORT_TX_ERR_MONITOR": {
+                "CONFIG": {
+                    "threshold": "0",
+                    "window_sec": "10",
+                    "enabled": "enabled"
+                }
+            }
+        }
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_WINDOW_ZERO": {
+        "sonic-port-tx-err-monitor:sonic-port-tx-err-monitor": {
+            "sonic-port-tx-err-monitor:PORT_TX_ERR_MONITOR": {
+                "CONFIG": {
+                    "threshold": "100",
+                    "window_sec": "0",
+                    "enabled": "enabled"
+                }
+            }
+        }
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_ENABLED": {
+        "sonic-port-tx-err-monitor:sonic-port-tx-err-monitor": {
+            "sonic-port-tx-err-monitor:PORT_TX_ERR_MONITOR": {
+                "CONFIG": {
+                    "threshold": "100",
+                    "window_sec": "10",
+                    "enabled": "yes"
+                }
+            }
+        }
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_WINDOW_TOO_LARGE": {
+        "sonic-port-tx-err-monitor:sonic-port-tx-err-monitor": {
+            "sonic-port-tx-err-monitor:PORT_TX_ERR_MONITOR": {
+                "CONFIG": {
+                    "threshold": "100",
+                    "window_sec": "86401",
+                    "enabled": "enabled"
+                }
+            }
+        }
+    }
+}

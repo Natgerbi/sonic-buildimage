@@ -3195,6 +3195,13 @@
                 "product-name" : "product name",
                 "serial-no" : "1234-5678-91A"
             }
+        },
+        "PORT_TX_ERR_MONITOR" : {
+            "CONFIG" : {
+                "threshold" : "100",
+                "window_sec" : "5",
+                "enabled" : "enabled"
+            }
         }
     },
     "SAMPLE_CONFIG_DB_UNKNOWN": {

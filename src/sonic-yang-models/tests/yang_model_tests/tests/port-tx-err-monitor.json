@@ -1,0 +1,21 @@
+{
+    "PORT_TX_ERR_MONITOR_VALID": {
+        "desc": "Valid port TX error monitor configuration"
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_THRESHOLD_ZERO": {
+        "desc": "Threshold of 0 is not allowed",
+        "eStrKey": "Range"
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_WINDOW_ZERO": {
+        "desc": "Window of 0 is not allowed",
+        "eStrKey": "Range"
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_ENABLED": {
+        "desc": "Invalid enabled value",
+        "eStrKey": "InvalidValue"
+    },
+    "PORT_TX_ERR_MONITOR_INVALID_WINDOW_TOO_LARGE": {
+        "desc": "Window exceeding 86400 is not allowed",
+        "eStrKey": "Range"
+    }
+}
